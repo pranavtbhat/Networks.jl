@@ -1,8 +1,7 @@
-language: node_js
-node_js:
-  - "4.0"
-before_install:
-  - sudo add-apt-repository ppa:staticfloat/juliareleases -y
-  - sudo add-apt-repository ppa:staticfloat/julia-deps -y
-  - sudo apt-get update
-  - sudo apt-get install julia
+language: julia
+julia:
+  - release
+before_script:
+  - npm install 
+script:
+  - npm test
