@@ -1,0 +1,20 @@
+<svg width="1300" height="950" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <metadata id="metadata18">image/svg+xml</metadata>
+ <!-- green dot -->
+ <!-- blue dot -->
+ <!-- red dot -->
+ <!-- purple dot -->
+ <g>
+  <title>Layer 1</title>
+  <polyline se:connector="circle6 circle12" fill="none" stroke-width="5" stroke="#000000" points="431.464 664.414 587.643 664.223 743.821 664.032" id="svg_14"/>
+  <polyline se:connector="circle6 circle8" fill="none" stroke-width="5" stroke="#000000" points="399.185 579.518 466.508 470.974 533.831 362.43" id="svg_13"/>
+  <polyline se:connector="circle8 circle12" fill="none" stroke-width="5" stroke="#000000" points="639.833 362.43 707.687 470.679 775.541 578.929" id="svg_12"/>
+  <polyline se:connector="circle10 circle12" fill="none" stroke-width="5" stroke="#000000" points="652.107 596.573 697.964 614.052 743.821 631.53" id="svg_11"/>
+  <polyline se:connector="circle10 circle8" fill="none" stroke-width="5" stroke="#000000" points="586.595 506.107 586.581 434.269 586.568 362.43" id="svg_10"/>
+  <polyline se:connector="circle6 circle10" fill="none" stroke-width="5" stroke="#000000" points="431.464 631.632 476.286 614.29 521.107 596.949" id="svg_9"/>
+  <circle fill="#6b85dd" stroke="#4266d5" stroke-width="20" id="circle8" r="75" cy="277.430157" cx="586.551982"/>
+  <circle fill="#d66661" stroke="#c93d39" stroke-width="20" id="circle10" r="55.500008" cy="571.607139" cx="586.607145"/>
+  <circle fill="#aa7dc0" stroke="#945bb0" stroke-width="20" id="circle12" r="75" cy="663.928572" cx="828.821423"/>
+  <circle fill="#6bab5b" stroke="#3b972e" stroke-width="20" id="circle6" r="75" cy="664.517848" cx="346.464292"/>
+ </g>
+</svg>
