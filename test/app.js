@@ -1,4 +1,4 @@
-var app = require('../app');
+var app = require('../bin/test');
 var assert = require('assert');
 var http = require('http');
 
