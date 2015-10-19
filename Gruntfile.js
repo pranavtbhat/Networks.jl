@@ -10,12 +10,6 @@ module.exports = function(grunt) {
         options: {
           script: 'bin/dev'
         }
-      },
-      prod: {
-        options: {
-          script: 'bin/server',
-          node_env: 'production'
-        }
       }
     },
     jshint: {
@@ -108,12 +102,6 @@ module.exports = function(grunt) {
     'copy',
     'express:dev',
     'watch'
-  ]);
-
-  grunt.registerTask('prod', [
-    'clean',
-    'copy',
-    'express:prod'
   ]);
 
 };
