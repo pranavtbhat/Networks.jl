@@ -104,4 +104,9 @@ module.exports = function(grunt) {
     'watch'
   ]);
 
+  grunt.registerTask('heroku:production', [
+    'clean',
+    'copy'
+  ]);
+
 };

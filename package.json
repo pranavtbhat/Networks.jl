@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=Networks node bin/server",
+    "start": "node bin/server",
     "test": "./node_modules/mocha/bin/mocha"
   },
   "dependencies": {
