@@ -1,7 +1,17 @@
-language: node_js
-node_js:
-  - "4.0"
-script:
-  - istanbul cover node_modules/mocha/bin/_mocha
+language: julia
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
+julia:
+ - 0.4
+before_install:
+  - nvm install 4.0
+  - npm install -g istanbul
 after_success:
+  - (cd deps/server/ && istanbul cover ./node_modules/mocha/bin/_mocha)
   - bash <(curl -s https://codecov.io/bash)

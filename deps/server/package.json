@@ -17,6 +17,7 @@
     "jade": "~1.11.0",
     "mocha": "^2.3.3",
     "morgan": "~1.6.1",
+    "node-julia": "^1.2.2",
     "serve-favicon": "~2.3.0",
     "sigma": "^1.0.3"
   },
