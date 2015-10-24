@@ -3,3 +3,16 @@
 [![codecov.io](https://codecov.io/github/pranavtbhat/Networks.jl/coverage.svg?branch=master)](https://codecov.io/github/pranavtbhat/Networks.jl?branch=master)
 
 Networks.jl is a Network Analysis Platform built on Node express app and is powered by Julia.
+
+## Prerequisites
+ - Node
+ - npm
+
+## Installation
+Pkg.clone("git@github.com:pranavtbhat/Networks.jl.git")
+Pkg.build("Networks")
+
+## Running the server
+```julia
+using Networks
+server()
