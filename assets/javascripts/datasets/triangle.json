@@ -1,42 +1,51 @@
 {
-  "nodes": [
-    {
-      "id": "n0",
-      "label": "A node",
-      "x": 0,
-      "y": 0,
-      "size": 3
-    },
-    {
-      "id": "n1",
-      "label": "Another node",
-      "x": 3,
-      "y": 1,
-      "size": 2
-    },
-    {
-      "id": "n2",
-      "label": "And a last one",
-      "x": 1,
-      "y": 3,
-      "size": 1
-    }
-  ],
-  "edges": [
-    {
-      "id": "e0",
-      "source": "n0",
-      "target": "n1"
-    },
-    {
-      "id": "e1",
-      "source": "n1",
-      "target": "n2"
-    },
-    {
-      "id": "e2",
-      "source": "n2",
-      "target": "n0"
-    }
-  ]
+  "nodes": [{
+    "id": "blue",
+    "x": 5,
+    "y": 0,
+    "size": 1,
+    "color":"#6b85dd"
+  }, {
+    "id": "green",
+    "x": 0,
+    "y": 10,
+    "size": 1,
+    "color":"#6bab5b"
+  }, {
+    "id": "purple",
+    "x": 10,
+    "y": 10,
+    "size": 1,
+    "color":"#aa7dc0"
+  }, {
+    "id": "red",
+    "x": 5,
+    "y": 7.5,
+    "size": 0.5
+  }],
+  "edges": [{
+    "id": "e0",
+    "source": "blue",
+    "target": "green"
+  }, {
+    "id": "e1",
+    "source": "blue",
+    "target": "purple"
+  }, {
+    "id": "e3",
+    "source": "green",
+    "target": "purple"
+  }, {
+    "id": "e4",
+    "source": "red",
+    "target": "blue"
+  }, {
+    "id": "e5",
+    "source": "red",
+    "target": "green"
+  }, {
+    "id": "e6",
+    "source": "red",
+    "target": "purple"
+  }]
 }
