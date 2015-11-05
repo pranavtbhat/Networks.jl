@@ -10,7 +10,7 @@ Networks.jl is a Network Analysis Platform built on Node express app and is powe
 
 ## Installation
 ```julia
-Pkg.clone("git@github.com:pranavtbhat/Networks.jl.git")
+Pkg.clone("https://github.com/pranavtbhat/Networks.jl.git")
 Pkg.build("Networks")
 ```
 
