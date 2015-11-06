@@ -25,18 +25,28 @@ h2, h3 {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-#sigma-container {
-  max-width: 600px;
-  height: 600px;
-  margin: auto;
 
-  background: #FFFAF0
-}
 .dark-wings {
-  height: 620px;
+  height: auto;
   margin: auto;
   width: 100%;
+  overflow: hidden;
   padding-top: 10px;
   background: #2a2a2a;
-  color: #fff
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+#container{
+  float: left;
+  width: 50%;
+  color: black;
+}
+
+#sigma-container {
+  height: 800px;
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+  background: #FFFAF0
 }
