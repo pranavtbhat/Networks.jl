@@ -1,5 +1,13 @@
-base_directory = dirname(dirname(@__FILE__))
-server_directory = joinpath(base_directory,"deps/server")
+using Networks
+using Requests
+using Base.Test
+using HttpServer
 
-cd(server_directory)
-run(`./node_modules/mocha/bin/mocha`)
+
+import Requests: get, text, statuscode
+
+
+#Basic test to see if the server is running
+run_server()
+req = Requests.get("http://0.0.0.0:8000")
+@test statuscode(req) == 200

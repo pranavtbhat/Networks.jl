@@ -37,16 +37,24 @@ h2, h3 {
   padding-bottom: 10px;
 }
 
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
 #container{
   float: left;
   width: 50%;
   color: black;
 }
 
-#sigma-container {
-  height: 800px;
-  float: left;
-  width: 50%;
+#d3 {
+  margin:0 auto;
+  width: 500px;
   padding-right: 20px;
   background: #FFFAF0
 }
