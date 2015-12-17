@@ -13,23 +13,17 @@
 </head>
 
 <body>
-  <div class="container banner-container">
-    <div class="col-md-2">
-      <img class="logo" src="static/images/networks_logo.svg">
-    </div>
-    <div class="col-md-3">
-      <h1>Networks.jl</h1>
-    </div>
+  <div id="d3">
   </div>
+  <script src="static/js/Networks.js"></script>
+  <script>
+    "use strict";
 
-  <div class="dark-wings">
-    <div id="container">
-    </div>
-    <div id="d3">
-    </div>
-    <script src="static/js/main.js"></script>
-  </div>
-
+    d3.json("static/js/miserables.json", function(error, graph) {
+      Networks.initialize();
+      Networks.drawGraph(graph);
+    });
+  </script>
 </body>
 
 </html>

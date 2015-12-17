@@ -1,42 +1,3 @@
-body {
-  font-size: 10pt
-}
-h2, h3 {
-  font-family: museo-slab;
-  font-weight: 100
-}
-.banner-container h1 {
-  font-family: ff-enzo-web;
-  font-size: 3em;
-  font-weight: 100;
-  color: #6f6f6f;
-  display: inline
-}
-.banner-container h1 sup {
-  color: #ccc;
-  font-size: .6em
-}
-.banner-container img.logo {
-  margin-top: -1.5em;
-  height: 6.67em;
-  width: auto
-}
-.banner-container {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.dark-wings {
-  height: auto;
-  margin: auto;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 10px;
-  background: #2a2a2a;
-  color: #fff;
-  padding-bottom: 10px;
-}
-
 .node {
   stroke: #fff;
   stroke-width: 1.5px;
@@ -46,15 +7,11 @@ h2, h3 {
   stroke: #999;
   stroke-opacity: .6;
 }
-#container{
-  float: left;
-  width: 50%;
-  color: black;
-}
 
 #d3 {
   margin:0 auto;
-  width: 500px;
+  width: 100%;
+  heigh: 100%
   padding-right: 20px;
   background: #FFFAF0
 }
